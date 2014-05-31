@@ -1,0 +1,337 @@
+fileFormatVersion: 2
+guid: fa371514fe2cd453cb5398e48064ebd0
+TextureImporter:
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: .25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  seamlessCubemap: 0
+  textureFormat: -1
+  maxTextureSize: 1024
+  textureSettings:
+    filterMode: -1
+    aniso: 1
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: .5, y: .5}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings:
+  - buildTarget: iPhone
+    maxTextureSize: 1024
+    textureFormat: -2
+    compressionQuality: 50
+  spriteSheet:
+    sprites:
+    - name: env_ground_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 262
+        width: 66
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: env_ground_1
+      rect:
+        serializedVersion: 2
+        x: 66
+        y: 262
+        width: 66
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: env_ground_2
+      rect:
+        serializedVersion: 2
+        x: 132
+        y: 262
+        width: 66
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: env_ground_3
+      rect:
+        serializedVersion: 2
+        x: 198
+        y: 262
+        width: 66
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: env_ground_4
+      rect:
+        serializedVersion: 2
+        x: 264
+        y: 262
+        width: 66
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: env_ground_5
+      rect:
+        serializedVersion: 2
+        x: 330
+        y: 262
+        width: 66
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: env_ground_6
+      rect:
+        serializedVersion: 2
+        x: 396
+        y: 262
+        width: 66
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: env_ground_7
+      rect:
+        serializedVersion: 2
+        x: 462
+        y: 262
+        width: 66
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: env_ground_8
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 196
+        width: 66
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: env_ground_9
+      rect:
+        serializedVersion: 2
+        x: 66
+        y: 196
+        width: 66
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: env_ground_10
+      rect:
+        serializedVersion: 2
+        x: 132
+        y: 196
+        width: 66
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: env_ground_11
+      rect:
+        serializedVersion: 2
+        x: 198
+        y: 196
+        width: 66
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: env_ground_12
+      rect:
+        serializedVersion: 2
+        x: 264
+        y: 196
+        width: 66
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: env_ground_13
+      rect:
+        serializedVersion: 2
+        x: 330
+        y: 196
+        width: 66
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: env_ground_14
+      rect:
+        serializedVersion: 2
+        x: 396
+        y: 196
+        width: 66
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: env_ground_15
+      rect:
+        serializedVersion: 2
+        x: 462
+        y: 196
+        width: 66
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: env_ground_16
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 130
+        width: 66
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: env_ground_17
+      rect:
+        serializedVersion: 2
+        x: 66
+        y: 130
+        width: 66
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: env_ground_18
+      rect:
+        serializedVersion: 2
+        x: 132
+        y: 130
+        width: 66
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: env_ground_19
+      rect:
+        serializedVersion: 2
+        x: 198
+        y: 130
+        width: 66
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: env_ground_20
+      rect:
+        serializedVersion: 2
+        x: 264
+        y: 130
+        width: 66
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: env_ground_21
+      rect:
+        serializedVersion: 2
+        x: 330
+        y: 130
+        width: 66
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: env_ground_22
+      rect:
+        serializedVersion: 2
+        x: 396
+        y: 130
+        width: 66
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: env_ground_23
+      rect:
+        serializedVersion: 2
+        x: 462
+        y: 130
+        width: 66
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: env_ground_24
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 64
+        width: 66
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: env_ground_25
+      rect:
+        serializedVersion: 2
+        x: 66
+        y: 64
+        width: 66
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: env_ground_26
+      rect:
+        serializedVersion: 2
+        x: 132
+        y: 64
+        width: 66
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: env_ground_27
+      rect:
+        serializedVersion: 2
+        x: 198
+        y: 64
+        width: 66
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: env_ground_28
+      rect:
+        serializedVersion: 2
+        x: 264
+        y: 64
+        width: 66
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: env_ground_29
+      rect:
+        serializedVersion: 2
+        x: 330
+        y: 64
+        width: 66
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: env_ground_30
+      rect:
+        serializedVersion: 2
+        x: 396
+        y: 64
+        width: 66
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: env_ground_31
+      rect:
+        serializedVersion: 2
+        x: 462
+        y: 64
+        width: 66
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+  spritePackingTag: 
+  userData: 
