@@ -1667,7 +1667,7 @@ CircleCollider2D:
   m_Material: {fileID: 6200000, guid: 24ac79603fb61400588e37d9f6fe952a, type: 2}
   m_IsTrigger: 0
   m_Radius: .370000005
-  m_Center: {x: 0, y: -.449999988}
+  m_Center: {x: 0, y: -.310000002}
 --- !u!61 &657494749
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -1710,8 +1710,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   facingRight: 1
   jump: 0
-  moveForce: 365
-  maxSpeed: 8
+  moveForce: 50
+  maxSpeed: 2
   jumpClips:
   - {fileID: 8300000, guid: 50a8d8a939a0f4e77a0dac6ecd2e582b, type: 3}
   - {fileID: 8300000, guid: fc55d077383484ac0ad66aa17fcd746f, type: 3}
@@ -2606,6 +2606,7 @@ Transform:
   - {fileID: 614598798}
   - {fileID: 1285328621}
   - {fileID: 957921710}
+  - {fileID: 1564195318}
   - {fileID: 265182528}
   - {fileID: 1657310781}
   m_Father: {fileID: 176087271}
@@ -3121,7 +3122,7 @@ Camera:
   far clip plane: 1000
   field of view: 60
   orthographic: 1
-  orthographic size: 4.43512249
+  orthographic size: 2.04999995
   m_Depth: -1
   m_CullingMask:
     serializedVersion: 2
@@ -3137,7 +3138,7 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1299385758}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: -.782501221, z: -10}
+  m_LocalPosition: {x: 0, y: -3.24073982, z: -10}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -3889,10 +3890,10 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1564195316}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 8.83672142, y: -3.84242964, z: 0}
+  m_LocalPosition: {x: 8.93369102, y: -4.10923243, z: 1}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
-  m_Father: {fileID: 0}
+  m_Father: {fileID: 1056094366}
 --- !u!1 &1574395627
 GameObject:
   m_ObjectHideFlags: 0
@@ -4792,6 +4793,18 @@ Prefab:
     - target: {fileID: 400020, guid: 6aa187bc6339843479c03fdfd71404a3, type: 2}
       propertyPath: m_LocalScale.z
       value: .5
+      objectReference: {fileID: 0}
+    - target: {fileID: 11400002, guid: 6aa187bc6339843479c03fdfd71404a3, type: 2}
+      propertyPath: maxSpeed
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 11400002, guid: 6aa187bc6339843479c03fdfd71404a3, type: 2}
+      propertyPath: moveForce
+      value: 50
+      objectReference: {fileID: 0}
+    - target: {fileID: 5800000, guid: 6aa187bc6339843479c03fdfd71404a3, type: 2}
+      propertyPath: m_Center.y
+      value: -.310000002
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 6aa187bc6339843479c03fdfd71404a3, type: 2}
