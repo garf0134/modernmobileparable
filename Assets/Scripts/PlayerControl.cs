@@ -47,7 +47,42 @@ public class PlayerControl : MonoBehaviour
 	{
 		// Cache the horizontal input.
 		float h = Input.GetAxis("Horizontal");
+		if ( h == 0) {
+			bool movementDetected = false;
+			if (Input.GetMouseButton(0)) { 
+				movementDetected = true;
+			} else if (Input.touchCount > 0) {
+				movementDetected = true;
+			}
 
+			if (movementDetected) {
+				Ray r ;
+				if (Input.GetMouseButton(0)) { 
+					r = Camera.main.ScreenPointToRay(Input.mousePosition);
+					movementDetected = true;
+				} else {
+					r = Camera.main.ScreenPointToRay(Input.GetTouch(0).position);
+					movementDetected = true;
+				}
+
+				RaycastHit[] hit = Physics.RaycastAll(r);
+
+				if (hit.Length > 0)
+				{
+					RaycastHit aHit = hit[0];
+					Vector3 delta = aHit.point - transform.position;
+					float width;
+					if (delta.x > 0) {
+						width = Camera.main.ViewportToWorldPoint(new Vector3(1,0,0)).x - transform.position.x;
+					} else {
+						width = transform.position.x - Camera.main.ViewportToWorldPoint(new Vector3(0,0,0)).x;
+					}
+
+					h = delta.x / width;
+				}
+			}
+		}
+		Debug.Log("h  = " + h);
 		// The Speed animator parameter is set to the absolute value of the horizontal input.
 		anim.SetFloat("Speed", Mathf.Abs(h));
 
